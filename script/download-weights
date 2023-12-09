@@ -1,0 +1,11 @@
+#!/usr/bin/env python
+
+import os
+import subprocess
+MODEL_CACHE="model-cache"
+SDXL_URL = "https://weights.replicate.delivery/default/sdxl/sdxl-vae-upcast-fix.tar"
+
+os.system("git clone https://github.com/PRIS-CV/DemoFusion.git")
+
+# subprocess.check_call(["pget", "-x", SDXL_URL, MODEL_CACHE], close_fds=False)
+
